@@ -49,6 +49,6 @@ bower install bootstrap-sass --save
 #### Vorschau:
 Bemerkung: Mobile Ansicht Gallerie noch nicht responsive daher unschön nach links verschoben
 <p align="left">
-  <img src="https://s27.postimg.org/nf2j5a88z/index.png"/  width="380">
-  <img src="https://s8.postimg.org/nyoaeb2tx/mobile.png"/  width="180">
+  <img src="https://s27.postimg.org/nf2j5a88z/index.png"/  width="390">
+  <img src="https://s8.postimg.org/nyoaeb2tx/mobile.png"/  width="80">
 </p>
