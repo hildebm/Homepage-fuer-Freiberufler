@@ -1,5 +1,5 @@
 # Homepage-fuer-Kuenstler-mit-Bootstrap-und-Sass
-Homepage für Künstler. 
+Homepage für Template mit Bootstrap und Sass, Kontaktformular für Künstler, Photographen o.ä.
 
 ## Verwendet
 - [Bootstrap](http://getbootstrap.com/)
