@@ -14,6 +14,7 @@ Homepage für Künstler.
 - [NodeJS](https://nodejs.org/en/) 
 - [Git](https://git-scm.com/)
 - [Koala](http://koala-app.com/) "GUI application for Less, Sass, ..."
+- [Atom](https://atom.io/) and life Server or XAMPP or similar
 
 
 ### Setup
@@ -27,27 +28,27 @@ git clone https://github.com/MariaHildebrandt/Homepage-fuer-Kuenstler-mit-Bootst
 
 ```bash
 cd projectname
-npm install
-bower install
+npm install -g bower
+bower install bootstrap-sass --save
 ```
+3.Starte Koala. Öffne darin die Datei projectname/sass/app.scss
 
-3. `npm start` 
-- um Sass compiler zu starten
-- 'projectname' auf Default-Port: 3000 bzw: http://127.0.0.1:3000/
+4. starte Atom Life Server
+- Atom code editor: file>settings>Packages search for atom-life-server by Jes-Chen
+- install and start server via Packages>atom-live-sever
 
 ### Screenshots
 
 #### Vollansicht:
 <p>
-  <a href="https://postimg.org/image/c0a70uyan/">Home</a>,
-  <a href="https://postimg.org/image/97gzgtxy7/">Features</a>,
-  <a href="https://postimg.org/image/6stpa5733/">Modelle</a>
+  <a href="https://postimg.org/image/anocyrygv/">Idex</a>,
+  <a href="https://postimg.org/image/q38nfe4gh/">Mobile Ansicht</a>
 </p>
 
 
 #### Vorschau:
+Bemerkung: Mobile Ansicht Gallerie noch nicht responsive daher unschön nach links verschoben
 <p align="left">
-  <img src="https://s19.postimg.org/wkf0zce1v/home.png"/  width="280">
-  <img src="https://s19.postimg.org/72wmfqwbn/features.png"/  width="280">
-  <img src="https://s19.postimg.org/jk7vgngv7/modelle.png"/  width="280">
+  <img src="https://s27.postimg.org/nf2j5a88z/index.png"/  width="380">
+  <img src="https://s8.postimg.org/nyoaeb2tx/mobile.png"/  width="180">
 </p>
