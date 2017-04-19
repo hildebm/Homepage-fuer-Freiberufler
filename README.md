@@ -22,7 +22,7 @@ Homepage für Template mit Bootstrap und Sass, Kontaktformular für Künstler, P
 1.Download mit Git:
 
 ```bash
-git clone https://github.com/MariaHildebrandt/Homepage-fuer-Kuenstler-mit-Bootstrap-und-Sass projectname
+git clone https://github.com/MariaHildebrandt/Homepage-mit-Bootstrap-und-Sass projectname
 ```
 2.Ordner in command line öffnen und dependencies installieren:
 
