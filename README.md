@@ -60,8 +60,10 @@ Bemerkung: Mobile Ansicht Gallerie noch nicht responsive daher unschön nach lin
 - 3.) install sass with command (still in project folder): bower install bootstrap-sass --save
 - 4.) inside project folder create new folder "sass" and in new folder create new file "app.scss"
 - 5.)in app.scss write:
-- @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
-- @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+```bash
+ @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+ @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+```
 - 6.)open app.scss in koala aand compile - this will create e new folder named css which contains app.cssinclude this file in the header of your index.html
 ```bash
  <link href="../css/app.css" rel="stylesheet">
@@ -93,7 +95,9 @@ Bemerkung: Mobile Ansicht Gallerie noch nicht responsive daher unschön nach lin
 
 ##### google fonts:
 - für font-famliy importiere den link in app.scss
-- like this: @import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Raleway');
+```bash
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Raleway');
+```
 
 ##### wenn tabs in bootstrap nicht funktionieren:
 - neuesten jquery link einfügen und
