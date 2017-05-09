@@ -17,7 +17,7 @@ Homepage für Template mit Bootstrap und Sass, Kontaktformular für Künstler, P
 - [Atom](https://atom.io/) and life Server or XAMPP or similar
 
 
-### Setup
+## Setup
 
 1.Download mit Git:
 
@@ -37,7 +37,7 @@ bower install bootstrap-sass --save
 - Atom code editor: file>settings>Packages search for atom-life-server by Jes-Chen
 - install and start server via Packages>atom-live-sever
 
-### Screenshots
+## Screenshots
 
 #### Vollansicht:
 <p>
@@ -53,7 +53,9 @@ Bemerkung: Mobile Ansicht Gallerie noch nicht responsive daher unschön nach lin
   <img src="https://s8.postimg.org/nyoaeb2tx/mobile.png"/  width="80">
 </p>
 
-### How to Recreate
+
+
+## How to Recreate
 - 1.)download koala GUI : to compile sass files
 - 2.) use bower to set up bootstrap with following command in you project folder:npm install -g bower   this will create a folder called "bower components"
 - set-up will take ~ 3min
@@ -70,19 +72,21 @@ Bemerkung: Mobile Ansicht Gallerie noch nicht responsive daher unschön nach lin
  ```
 
 #### Integrate working Email Service: Third Party service for Mials - mailchimp (free)
-- 1.)sign up for free
-- 2.)create a list with website name
-- 3.) deafult from emal: your email and default from name
-- 4.)you can also see subsciptions to your website
+- 1.) sign up for free
+- 2.) create a list with website name
+- 3.) default from emal: your email and default from name
+- 4.) you can also see subsciptions to your website
 - 5.) embedded forms genrator
 
-#### Mögliche Fehler und wie sie zu beheben sind
+
+
+## Mögliche Fehler und wie sie zu beheben sind
 ##### Erste möglichkeit falls die scss files nicht mehr compilert werden
 - _filename.scss umbennen und in mainfile.scss importieren
 
 ##### Zweite möglichkeit falls die scss files nicht mehr compilert werden
 - 1.) öffne projekt ordner im bash
-- 2.)$ gem install compass
+- 2.) $gem install compass
 - dabei musst du beachten dass SASS bzw. Ruby schon installiert ist
 - 3.) sobald installier den befehl "compass clean" ausführen. Dies soll den .sass-cache folder leeren
 
