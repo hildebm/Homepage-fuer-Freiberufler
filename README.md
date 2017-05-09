@@ -63,8 +63,9 @@ Bemerkung: Mobile Ansicht Gallerie noch nicht responsive daher unschön nach lin
 - @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 - @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
 - 6.)open app.scss in koala aand compile - this will create e new folder named css which contains app.cssinclude this file in the header of your index.html
-- <link href="../css/app.css" rel="stylesheet">
-- now bootstrap css will be loading
+```bash
+ <link href="../css/app.css" rel="stylesheet">
+ ```
 
 #### Integrate working Email Service: Third Party service for Mials - mailchimp (free)
 - 1.)sign up for free
@@ -98,6 +99,7 @@ Bemerkung: Mobile Ansicht Gallerie noch nicht responsive daher unschön nach lin
 - neuesten jquery link einfügen und
 - bootstrap runterladen und bootstrap.min.js in einem neuen ordner "js" (auf selber ebene wie "css") entpacken
 - dann über dem body-schließ-tag (</body>) folgendes einsetzen:
-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-- <!-- Include all compiled plugins (below), or include individual files as needed -->
-- <script src="js/bootstrap.min.js"></script>
+```bash
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+````
