@@ -24,7 +24,7 @@ Kontaktformular, Gallerie, Lebenslauf
 1.Download mit Git:
 
 ```bash
-git clone https://github.com/MariaHildebrandt/Homepage-mit-Bootstrap-und-Sass projectname
+git clone https://github.com/MariaHildebrandt/Homepage-fuer-Freiberufler projectname
 ```
 2.Ordner in command line öffnen und dependencies installieren:
 
