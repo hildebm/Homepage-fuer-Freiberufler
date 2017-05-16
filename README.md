@@ -1,5 +1,5 @@
-# Homepage-fuer-Eigenstaendige
-Homepage Template für eigenständige z.B Künstler 
+# Homepage-fuer-Freiberufler
+Homepage Template für Freiberufler z.B Künstler 
 
 Kontaktformular, Gallerie, Lebenslauf
 
